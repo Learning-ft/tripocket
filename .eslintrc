@@ -1,0 +1,30 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true,
+			"modules": true
+		},
+		"ecmaVersion": 2020,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "unused-imports", "prettier"],
+	"rules": {
+		"react/jsx-uses-vars": "error",
+		"react/jsx-uses-react": "error",
+		"no-var": "error", // var 금지
+		"space-before-function-paren": [
+			"error",
+			{
+				"anonymous": "ignore",
+				"named": "never",
+				"asyncArrow": "always"
+			}
+		],
+		"unused-imports/no-unused-imports-ts": ["error"]
+
+	}
+}
