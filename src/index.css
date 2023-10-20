@@ -1,10 +1,30 @@
+@font-face {
+	font-family: "Pretendard";
+	font-display: fallback; /*로드 되는 동안 시스템 폰트 적용*/
+	src: url("./Asset/Font/Pretendard/PretendardVariable.ttf");
+}
+
+@font-face {
+	font-family: "HakgyoansimGaeulsopungB";
+	font-display: fallback;
+	src: url("./Asset/Font/HakgyoansimGaeulsopung/HakgyoansimGaeulsopungB.ttf");
+}
+
+@font-face {
+	font-family: "HakgyoansimGaeulsopungL";
+	font-display: fallback;
+	src: url("./Asset/Font/HakgyoansimGaeulsopung/HakgyoansimGaeulsopungL.ttf");
+}
+
+:root{
+	--font-Pretendard: "Pretendard";
+	--font-HakgyoansimGaeulsopungB: "HakgyoansimGaeulsopungB";
+	--font-HakgyoansimGaeulsopungL: "HakgyoansimGaeulsopungL";
+}
+
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-family: var(--font-Pretendard);
 }
 
 code {
