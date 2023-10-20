@@ -2,7 +2,7 @@
 @font-face {
 	font-family: "Pretendard";
 	font-display: fallback; /*폰트 다운로드 되는 동안 브라우저 기본폰트로 보여주기*/
-	src: url("./Asset/Font/Pretendard/public/variable/PretendardVariable.ttf");
+	src: url("./Asset/Font/Pretendard/PretendardVariable.ttf");
 }
 
 @font-face {
