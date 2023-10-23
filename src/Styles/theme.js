@@ -1,5 +1,5 @@
 export const PALETTE = {
-	primary: '3EA0DD',
+	primary: '#3EA0DD',
 	subColor1: '#F0F8FF',
 	subColor2: '#F7CAC9',
 	fontColor: '#333333',
@@ -42,6 +42,7 @@ const FONT_LINE = {
 const Z_INDEX = {}
 
 const theme = {
+	PALETTE,
 	FONT_SIZE,
 	FONT_WEIGHT,
 	FONT_LINE,
