@@ -1,6 +1,7 @@
 import React from "react";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
+// 끼야아ㅏㅏ
 
 const Container = () =>{
     const isPc = useMediaQuery("(min-width:1024)");
